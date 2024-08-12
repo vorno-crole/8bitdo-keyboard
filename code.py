@@ -11,8 +11,8 @@ from adafruit_debouncer import Debouncer
 # Set your pins here
 btn_A_pin = board.GP16
 btn_B_pin = board.GP17
-btn_X_pin = board.GP19
-btn_Y_pin = board.GP18
+btn_X_pin = board.GP18
+btn_Y_pin = board.GP19
 
 # Set your keys here
 btn_A_key = Keycode.Q
