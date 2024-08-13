@@ -59,19 +59,19 @@ while True:
     if btn_A_switch.fell:
         keyboard.release(btn_A_key)
 
-    # # AB Button: letter W
+    # B Button: letter W
     if btn_B_switch.rose:
         keyboard.press(btn_B_key)
     if btn_B_switch.fell:
         keyboard.release(btn_B_key)
 
-    # # X Button: letter E
+    # X Button: letter E
     if btn_X_switch.rose:
         keyboard.press(btn_X_key)
     if btn_X_switch.fell:
         keyboard.release(btn_X_key)
 
-    # # A Button: letter R
+    # Y Button: letter R
     if btn_Y_switch.rose:
         keyboard.press(btn_Y_key)
     if btn_Y_switch.fell:
